@@ -1,0 +1,17 @@
+== 1. Barrier ceiling check (Villahermosa: P(pass) = L/(T+L) with no edge)
+   mean R per trade without costs: -0.0032
+   T=10% L=10% theory 0.500 | fair coin: 0.501 | real EURUSD, no costs: 0.439 | real EURUSD, 1 pip: 0.015
+   T=8% L=5% theory 0.385 | fair coin: 0.389 | real EURUSD, no costs: 0.344 | real EURUSD, 1 pip: 0.032
+   T=5% L=10% theory 0.667 | fair coin: 0.658 | real EURUSD, no costs: 0.618 | real EURUSD, 1 pip: 0.121
+== 2. Shapley efficiency (sum of rule shares = total effect)
+   final_shapley.csv: max |sum - (all_removed - baseline)| = 9.09e-13
+   ext_shapley.csv: max |sum - (all_removed - baseline)| = 1.36e-12
+   sweep1d_shapley.csv: max |sum - (all_removed - baseline)| = 2.50e-12
+   sweep2d_shapley.csv: max |sum - (all_removed - baseline)| = 2.50e-12
+   opt_shapley.csv: max |sum - (all_removed - baseline)| = 2.27e-13
+== 3. Monotonicity: removing a rule should never lower the naive trader's P(payout)
+   A_two_phase_static: violations 0, worst 0.000 points
+   B_one_step_eod_trailing: violations 24, worst -0.042 points
+   C_instant_funding: violations 0, worst 0.000 points
+== 4. Edge trader expectancy check
+   implied mean R per trade: 0.1

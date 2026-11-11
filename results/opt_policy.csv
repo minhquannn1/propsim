@@ -1,0 +1,273 @@
+archetype,trader,removed,n_removed,target,risk,room_frac,dstop_mult,qstop,p_search,p_payout,e_payout,ev_per_fee
+A_two_phase_static,zero_edge_EURUSD,none,0,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.0971,0.09572,302.0546125854426,0.5593603936767456
+A_two_phase_static,zero_edge_EURUSD,daily,1,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.0971,0.09572,302.0546125854426,0.5593603936767456
+A_two_phase_static,zero_edge_EURUSD,min_days,1,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.115,0.11418,238.59829560929992,0.4418486955727776
+A_two_phase_static,zero_edge_EURUSD,daily+min_days,2,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.115,0.11418,238.59829560929992,0.4418486955727776
+A_two_phase_static,edge_+0.10R_EURUSD,none,0,own exit (1.5R),0.01,0.25,1000000000.0,0,0.7674,0.76884,2105.97135248886,3.899946949053444
+A_two_phase_static,edge_+0.10R_EURUSD,daily,1,own exit (1.5R),0.01,0.25,1000000000.0,0,0.7674,0.76872,2106.1278378261445,3.9002367367150823
+A_two_phase_static,edge_+0.10R_EURUSD,min_days,1,own exit (1.5R),0.01,0.25,1000000000.0,0,0.7771,0.77926,1588.9388639762872,2.942479377733865
+A_two_phase_static,edge_+0.10R_EURUSD,daily+min_days,2,own exit (1.5R),0.01,0.25,1000000000.0,0,0.7769,0.779,1587.602550093035,2.940004722394509
+A_two_phase_static,breakout_XAUUSD,none,0,3R,0.01,0.5,1000000000.0,0,0.1398,0.14078,461.70774318236585,0.8550143392266034
+A_two_phase_static,breakout_XAUUSD,daily,1,3R,0.01,0.5,1000000000.0,0,0.1398,0.14078,461.70774318236585,0.8550143392266034
+A_two_phase_static,breakout_XAUUSD,min_days,1,3R,0.01,0.5,1000000000.0,0,0.1562,0.15716,383.1050671674827,0.7094538280879309
+A_two_phase_static,breakout_XAUUSD,daily+min_days,2,3R,0.01,0.5,1000000000.0,0,0.1562,0.15716,383.1050671674827,0.7094538280879309
+A_two_phase_static,trend_XAUUSD,none,0,own exit (none),0.015,1000000000.0,1000000000.0,0,0.2884,0.28598,1055.4302395385766,1.9545004435899567
+A_two_phase_static,trend_XAUUSD,daily,1,own exit (none),0.015,1000000000.0,1000000000.0,0,0.2884,0.28598,1055.4302395385766,1.9545004435899567
+A_two_phase_static,trend_XAUUSD,min_days,1,own exit (none),0.015,1000000000.0,1000000000.0,0,0.3021,0.30096,791.5216244845509,1.4657807860825016
+A_two_phase_static,trend_XAUUSD,daily+min_days,2,own exit (none),0.015,1000000000.0,1000000000.0,0,0.3021,0.30096,791.5216244845509,1.4657807860825016
+B_one_step_eod_trailing,zero_edge_EURUSD,none,0,own exit (1.5R),0.01,1000000000.0,0.5,1,0.0428,0.04346,67.59687630133602,0.45064584200890684
+B_one_step_eod_trailing,zero_edge_EURUSD,daily,1,own exit (1.5R),0.01,1000000000.0,0.5,1,0.0428,0.04346,67.63277638939809,0.4508851759293206
+B_one_step_eod_trailing,zero_edge_EURUSD,trailing,1,own exit (1.5R),0.01,1000000000.0,0.5,1,0.086,0.08816,128.65976155818035,0.8577317437212023
+B_one_step_eod_trailing,zero_edge_EURUSD,min_days,1,own exit (1.5R),0.015,1000000000.0,0.5,0,0.0748,0.07612,86.22621741815757,0.5748414494543839
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency,1,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.0428,0.04346,67.59687630133602,0.45064584200890684
+B_one_step_eod_trailing,zero_edge_EURUSD,cap,1,own exit (1.5R),0.01,1000000000.0,0.5,1,0.0428,0.04346,135.67652335583455,0.9045101557055637
+B_one_step_eod_trailing,zero_edge_EURUSD,daily+trailing,2,own exit (1.5R),0.01,1000000000.0,0.5,1,0.0876,0.0883,129.03274942667872,0.8602183295111915
+B_one_step_eod_trailing,zero_edge_EURUSD,daily+min_days,2,own exit (1.5R),0.015,1000000000.0,0.5,0,0.0745,0.07668,86.75580496168784,0.578372033077919
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+daily,2,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.0428,0.04346,67.63277638939809,0.4508851759293206
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+daily,2,own exit (1.5R),0.01,1000000000.0,0.5,1,0.0428,0.04346,135.73054001771573,0.9048702667847714
+B_one_step_eod_trailing,zero_edge_EURUSD,min_days+trailing,2,own exit (1.5R),0.015,1000000000.0,0.5,0,0.1151,0.11868,134.7401924390874,0.898267949593916
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+trailing,2,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.086,0.08816,128.65976155818035,0.8577317437212023
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+trailing,2,own exit (1.5R),0.01,1000000000.0,0.5,1,0.086,0.08816,258.13879529141684,1.720925301942779
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+min_days,2,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.0792,0.07846,88.53302852311512,0.5902201901541008
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+min_days,2,own exit (1.5R),0.015,1000000000.0,0.5,0,0.0748,0.07612,172.45243483631515,1.1496828989087677
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency,2,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.0428,0.04346,135.67652335583455,0.9045101557055637
+B_one_step_eod_trailing,zero_edge_EURUSD,daily+min_days+trailing,3,own exit (1.5R),0.015,1000000000.0,0.5,0,0.1177,0.12148,137.7893326948176,0.918595551298784
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+daily+trailing,3,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.0876,0.0883,129.03274942667872,0.8602183295111915
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+daily+trailing,3,own exit (1.5R),0.01,1000000000.0,0.5,1,0.0876,0.0883,258.8687480675616,1.725791653783744
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+daily+min_days,3,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.078,0.08024,90.51257522783328,0.6034171681855552
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+daily+min_days,3,own exit (1.5R),0.015,1000000000.0,0.5,0,0.0745,0.07668,173.5116099233757,1.156744066155838
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+daily,3,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.0428,0.04346,135.73054001771573,0.9048702667847714
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+min_days+trailing,3,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.1158,0.11934,135.3072441206416,0.9020482941376107
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+min_days+trailing,3,own exit (1.5R),0.015,1000000000.0,0.5,0,0.1151,0.11868,269.4803848781748,1.796535899187832
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+trailing,3,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.086,0.08816,258.13879529141684,1.720925301942779
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+min_days,3,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.0792,0.07846,177.06605704623024,1.1804403803082015
+B_one_step_eod_trailing,zero_edge_EURUSD,consistency+daily+min_days+trailing,4,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.1193,0.12276,139.3426759727414,0.9289511731516094
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+daily+min_days+trailing,4,own exit (1.5R),0.015,1000000000.0,0.5,0,0.1177,0.12148,275.5786653896352,1.837191102597568
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+daily+trailing,4,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.0876,0.0883,258.8687480675616,1.725791653783744
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+daily+min_days,4,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.078,0.08024,181.02515045566656,1.2068343363711105
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+min_days+trailing,4,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.1158,0.11934,270.6144882412832,1.8040965882752213
+B_one_step_eod_trailing,zero_edge_EURUSD,cap+consistency+daily+min_days+trailing,5,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.1193,0.12276,278.6853519454828,1.8579023463032187
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,none,0,own exit (1.5R),0.0025,0.5,0.5,0,0.5403,0.53708,515.9053581678041,3.4393690544520275
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,daily,1,own exit (1.5R),0.0025,0.5,0.5,0,0.5403,0.53708,515.9053581678041,3.4393690544520275
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,trailing,1,own exit (1.5R),0.005,0.25,0.5,0,0.6394,0.64852,695.8906240914968,4.639270827276645
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,min_days,1,own exit (1.5R),0.0025,0.5,0.5,0,0.5407,0.53728,515.3761167046229,3.435840778030819
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency,1,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5403,0.53708,515.9053581678041,3.4393690544520275
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap,1,own exit (1.5R),0.0025,0.5,0.5,0,0.5403,0.53708,1031.8107163356083,6.878738108904055
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,daily+trailing,2,own exit (1.5R),0.005,0.1,0.5,0,0.6766,0.67994,704.6198361280988,4.6974655741873255
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,daily+min_days,2,own exit (1.5R),0.0025,0.5,0.5,0,0.5407,0.53728,515.3761167046229,3.435840778030819
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+daily,2,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5403,0.53708,515.9053581678041,3.4393690544520275
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+daily,2,own exit (1.5R),0.0025,0.5,0.5,0,0.5403,0.53708,1031.8107163356083,6.878738108904055
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,min_days+trailing,2,own exit (1.5R),0.005,0.25,0.5,0,0.6427,0.6514,663.7510227162561,4.425006818108374
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+trailing,2,own exit (1.5R),0.005,0.25,1000000000.0,0,0.6394,0.64852,695.8906240914968,4.639270827276645
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+trailing,2,own exit (1.5R),0.005,0.25,0.5,0,0.6394,0.64852,1391.7812481829935,9.27854165455329
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+min_days,2,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5407,0.53728,515.3761167046229,3.435840778030819
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+min_days,2,own exit (1.5R),0.0025,0.5,0.5,0,0.5407,0.53728,1030.7522334092457,6.871681556061638
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency,2,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5403,0.53708,1031.8107163356083,6.878738108904055
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,daily+min_days+trailing,3,own exit (1.5R),0.005,0.1,0.5,0,0.6784,0.68132,692.4624341821166,4.616416227880777
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+daily+trailing,3,own exit (1.5R),0.005,0.1,1000000000.0,0,0.6766,0.67994,704.6198361280988,4.6974655741873255
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+daily+trailing,3,own exit (1.5R),0.005,0.1,0.5,0,0.6766,0.67994,1409.2396722561975,9.394931148374651
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+daily+min_days,3,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5407,0.53728,515.3761167046229,3.435840778030819
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+daily+min_days,3,own exit (1.5R),0.0025,0.5,0.5,0,0.5407,0.53728,1030.7522334092457,6.871681556061638
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+daily,3,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5403,0.53708,1031.8107163356083,6.878738108904055
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+min_days+trailing,3,own exit (1.5R),0.005,0.25,1000000000.0,0,0.6427,0.6514,663.7510227162561,4.425006818108374
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+min_days+trailing,3,own exit (1.5R),0.005,0.25,0.5,0,0.6427,0.6514,1327.5020454325122,8.850013636216747
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+trailing,3,own exit (1.5R),0.005,0.25,1000000000.0,0,0.6394,0.64852,1391.7812481829935,9.27854165455329
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+min_days,3,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5407,0.53728,1030.7522334092457,6.871681556061638
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,consistency+daily+min_days+trailing,4,own exit (1.5R),0.005,0.1,1000000000.0,0,0.6784,0.68132,692.4624341821166,4.616416227880777
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+daily+min_days+trailing,4,own exit (1.5R),0.005,0.1,0.5,0,0.6784,0.68132,1384.9248683642331,9.232832455761555
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+daily+trailing,4,own exit (1.5R),0.005,0.1,1000000000.0,0,0.6766,0.67994,1409.2396722561975,9.394931148374651
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+daily+min_days,4,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.5407,0.53728,1030.7522334092457,6.871681556061638
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+min_days+trailing,4,own exit (1.5R),0.005,0.25,1000000000.0,0,0.6427,0.6514,1327.5020454325122,8.850013636216747
+B_one_step_eod_trailing,edge_+0.10R_EURUSD,cap+consistency+daily+min_days+trailing,5,own exit (1.5R),0.005,0.1,1000000000.0,0,0.6784,0.68132,1384.9248683642331,9.232832455761555
+B_one_step_eod_trailing,breakout_XAUUSD,none,0,3R,0.005,0.5,0.5,0,0.057,0.05858,80.51149225156341,0.5367432816770894
+B_one_step_eod_trailing,breakout_XAUUSD,daily,1,3R,0.005,0.5,0.5,0,0.057,0.05858,80.51149225156341,0.5367432816770894
+B_one_step_eod_trailing,breakout_XAUUSD,trailing,1,3R,0.005,0.5,0.5,0,0.1095,0.1116,148.03809222034067,0.9869206148022711
+B_one_step_eod_trailing,breakout_XAUUSD,min_days,1,3R,0.01,0.5,0.5,0,0.071,0.07028,98.393737424304,0.6559582494953601
+B_one_step_eod_trailing,breakout_XAUUSD,consistency,1,3R,0.005,0.5,1000000000.0,0,0.057,0.05858,80.51149225156341,0.5367432816770894
+B_one_step_eod_trailing,breakout_XAUUSD,cap,1,3R,0.005,0.5,0.5,0,0.057,0.05858,161.06750541647506,1.073783369443167
+B_one_step_eod_trailing,breakout_XAUUSD,daily+trailing,2,3R,0.005,0.5,0.5,0,0.1095,0.1116,148.03809222034067,0.9869206148022711
+B_one_step_eod_trailing,breakout_XAUUSD,daily+min_days,2,3R,0.01,0.5,0.5,0,0.071,0.07028,98.393737424304,0.6559582494953601
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+daily,2,3R,0.005,0.5,1000000000.0,0,0.057,0.05858,80.51149225156341,0.5367432816770894
+B_one_step_eod_trailing,breakout_XAUUSD,cap+daily,2,3R,0.005,0.5,0.5,0,0.057,0.05858,161.06750541647506,1.073783369443167
+B_one_step_eod_trailing,breakout_XAUUSD,min_days+trailing,2,3R,0.005,0.5,0.5,0,0.1215,0.12348,138.58363705700344,0.9238909137133563
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+trailing,2,3R,0.005,0.5,1000000000.0,0,0.1095,0.1116,148.03809222034067,0.9869206148022711
+B_one_step_eod_trailing,breakout_XAUUSD,cap+trailing,2,3R,0.005,0.5,0.5,0,0.1095,0.1116,296.18424604584106,1.974561640305607
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+min_days,2,3R,0.01,0.5,1000000000.0,0,0.071,0.07028,98.393737424304,0.6559582494953601
+B_one_step_eod_trailing,breakout_XAUUSD,cap+min_days,2,3R,0.01,0.5,0.5,0,0.071,0.07028,196.787474848608,1.3119164989907202
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency,2,3R,0.005,0.5,1000000000.0,0,0.057,0.05858,161.06750541647506,1.073783369443167
+B_one_step_eod_trailing,breakout_XAUUSD,daily+min_days+trailing,3,3R,0.005,0.5,0.5,0,0.1215,0.12348,138.58363705700344,0.9238909137133563
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+daily+trailing,3,3R,0.005,0.5,1000000000.0,0,0.1095,0.1116,148.03809222034067,0.9869206148022711
+B_one_step_eod_trailing,breakout_XAUUSD,cap+daily+trailing,3,3R,0.005,0.5,0.5,0,0.1095,0.1116,296.18424604584106,1.974561640305607
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+daily+min_days,3,3R,0.01,0.5,1000000000.0,0,0.071,0.07028,98.393737424304,0.6559582494953601
+B_one_step_eod_trailing,breakout_XAUUSD,cap+daily+min_days,3,3R,0.01,0.5,0.5,0,0.071,0.07028,196.787474848608,1.3119164989907202
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+daily,3,3R,0.005,0.5,1000000000.0,0,0.057,0.05858,161.06750541647506,1.073783369443167
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+min_days+trailing,3,3R,0.005,0.5,1000000000.0,0,0.1215,0.12348,138.58363705700344,0.9238909137133563
+B_one_step_eod_trailing,breakout_XAUUSD,cap+min_days+trailing,3,3R,0.005,0.5,0.5,0,0.1215,0.12348,277.1672741140069,1.8477818274267126
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+trailing,3,3R,0.005,0.5,1000000000.0,0,0.1095,0.1116,296.18424604584106,1.974561640305607
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+min_days,3,3R,0.01,0.5,1000000000.0,0,0.071,0.07028,196.787474848608,1.3119164989907202
+B_one_step_eod_trailing,breakout_XAUUSD,consistency+daily+min_days+trailing,4,3R,0.005,0.5,1000000000.0,0,0.1215,0.12348,138.58363705700344,0.9238909137133563
+B_one_step_eod_trailing,breakout_XAUUSD,cap+daily+min_days+trailing,4,3R,0.005,0.5,0.5,0,0.1215,0.12348,277.1672741140069,1.8477818274267126
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+daily+trailing,4,3R,0.005,0.5,1000000000.0,0,0.1095,0.1116,296.18424604584106,1.974561640305607
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+daily+min_days,4,3R,0.01,0.5,1000000000.0,0,0.071,0.07028,196.787474848608,1.3119164989907202
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+min_days+trailing,4,3R,0.005,0.5,1000000000.0,0,0.1215,0.12348,277.1672741140069,1.8477818274267126
+B_one_step_eod_trailing,breakout_XAUUSD,cap+consistency+daily+min_days+trailing,5,3R,0.005,0.5,1000000000.0,0,0.1215,0.12348,277.1672741140069,1.8477818274267126
+B_one_step_eod_trailing,trend_XAUUSD,none,0,own exit (none),0.005,1000000000.0,0.5,0,0.1433,0.1397,163.96015096353227,1.0930676730902151
+B_one_step_eod_trailing,trend_XAUUSD,daily,1,own exit (none),0.005,1000000000.0,0.5,0,0.1433,0.1397,163.96015096353227,1.0930676730902151
+B_one_step_eod_trailing,trend_XAUUSD,trailing,1,own exit (none),0.005,1000000000.0,0.5,0,0.2414,0.23882,278.6914973872103,1.8579433159147352
+B_one_step_eod_trailing,trend_XAUUSD,min_days,1,own exit (none),0.005,1000000000.0,0.5,0,0.1466,0.1429,156.345103730576,1.0423006915371733
+B_one_step_eod_trailing,trend_XAUUSD,consistency,1,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1447,0.14168,167.49802188671265,1.116653479244751
+B_one_step_eod_trailing,trend_XAUUSD,cap,1,own exit (none),0.005,1000000000.0,0.5,0,0.1433,0.1397,329.1687088084593,2.194458058723062
+B_one_step_eod_trailing,trend_XAUUSD,daily+trailing,2,own exit (none),0.005,1000000000.0,0.5,0,0.2414,0.23882,278.6914973872103,1.8579433159147352
+B_one_step_eod_trailing,trend_XAUUSD,daily+min_days,2,own exit (none),0.005,1000000000.0,0.5,0,0.1466,0.1429,156.345103730576,1.0423006915371733
+B_one_step_eod_trailing,trend_XAUUSD,consistency+daily,2,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1447,0.14168,167.49802188671265,1.116653479244751
+B_one_step_eod_trailing,trend_XAUUSD,cap+daily,2,own exit (none),0.005,1000000000.0,0.5,0,0.1433,0.1397,329.1687088084593,2.194458058723062
+B_one_step_eod_trailing,trend_XAUUSD,min_days+trailing,2,own exit (none),0.005,1000000000.0,0.5,0,0.2444,0.2416,264.57116651427106,1.763807776761807
+B_one_step_eod_trailing,trend_XAUUSD,consistency+trailing,2,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2438,0.24202,284.6259325006101,1.897506216670734
+B_one_step_eod_trailing,trend_XAUUSD,cap+trailing,2,own exit (none),0.005,1000000000.0,0.5,0,0.2414,0.23882,559.1775547922449,3.7278503652816326
+B_one_step_eod_trailing,trend_XAUUSD,consistency+min_days,2,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1483,0.14518,161.77189593692353,1.0784793062461568
+B_one_step_eod_trailing,trend_XAUUSD,cap+min_days,2,own exit (none),0.005,1000000000.0,0.5,0,0.1466,0.1429,312.690207461152,2.0846013830743466
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency,2,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1447,0.14168,336.2696174620904,2.2417974497472697
+B_one_step_eod_trailing,trend_XAUUSD,daily+min_days+trailing,3,own exit (none),0.005,1000000000.0,0.5,0,0.2444,0.2416,264.57116651427106,1.763807776761807
+B_one_step_eod_trailing,trend_XAUUSD,consistency+daily+trailing,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2438,0.24202,284.6259325006101,1.897506216670734
+B_one_step_eod_trailing,trend_XAUUSD,cap+daily+trailing,3,own exit (none),0.005,1000000000.0,0.5,0,0.2414,0.23882,559.1775547922449,3.7278503652816326
+B_one_step_eod_trailing,trend_XAUUSD,consistency+daily+min_days,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1483,0.14518,161.77189593692353,1.0784793062461568
+B_one_step_eod_trailing,trend_XAUUSD,cap+daily+min_days,3,own exit (none),0.005,1000000000.0,0.5,0,0.1466,0.1429,312.690207461152,2.0846013830743466
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+daily,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1447,0.14168,336.2696174620904,2.2417974497472697
+B_one_step_eod_trailing,trend_XAUUSD,consistency+min_days+trailing,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2469,0.245,273.15185577167586,1.8210123718111724
+B_one_step_eod_trailing,trend_XAUUSD,cap+min_days+trailing,3,own exit (none),0.005,1000000000.0,0.5,0,0.2444,0.2416,529.1511452825162,3.527674301883441
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+trailing,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2438,0.24202,571.0854623253772,3.8072364155025147
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+min_days,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1483,0.14518,323.54379187384706,2.1569586124923137
+B_one_step_eod_trailing,trend_XAUUSD,consistency+daily+min_days+trailing,4,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2469,0.245,273.15185577167586,1.8210123718111724
+B_one_step_eod_trailing,trend_XAUUSD,cap+daily+min_days+trailing,4,own exit (none),0.005,1000000000.0,0.5,0,0.2444,0.2416,529.1511452825162,3.527674301883441
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+daily+trailing,4,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2438,0.24202,571.0854623253772,3.8072364155025147
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+daily+min_days,4,own exit (none),0.005,1000000000.0,1000000000.0,0,0.1483,0.14518,323.54379187384706,2.1569586124923137
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+min_days+trailing,4,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2469,0.245,546.3125237973256,3.642083491982171
+B_one_step_eod_trailing,trend_XAUUSD,cap+consistency+daily+min_days+trailing,5,own exit (none),0.005,1000000000.0,1000000000.0,0,0.2469,0.245,546.3125237973256,3.642083491982171
+C_instant_funding,zero_edge_EURUSD,none,0,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3407,0.34794,347.94,1.20862859524802
+C_instant_funding,zero_edge_EURUSD,daily,1,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3407,0.34794,347.94,1.20862859524802
+C_instant_funding,zero_edge_EURUSD,trailing,1,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3639,0.37256,372.56,1.2941503404196193
+C_instant_funding,zero_edge_EURUSD,min_days,1,own exit (1.5R),0.0025,0.25,0.5,0,0.3518,0.35962,359.62,1.2492010559955538
+C_instant_funding,zero_edge_EURUSD,consistency,1,own exit (1.5R),0.005,1000000000.0,1000000000.0,1,0.4957,0.50768,507.68,1.7635125746838962
+C_instant_funding,zero_edge_EURUSD,cap,1,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3407,0.34794,1246.0961409067763,4.3285262640919
+C_instant_funding,zero_edge_EURUSD,daily+trailing,2,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3639,0.37256,372.56,1.2941503404196193
+C_instant_funding,zero_edge_EURUSD,daily+min_days,2,own exit (1.5R),0.0025,0.25,0.5,0,0.3518,0.35962,359.62,1.2492010559955538
+C_instant_funding,zero_edge_EURUSD,consistency+daily,2,own exit (1.5R),0.005,1000000000.0,1000000000.0,1,0.4957,0.50768,507.68,1.7635125746838962
+C_instant_funding,zero_edge_EURUSD,cap+daily,2,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3407,0.34794,1246.0961409067763,4.3285262640919
+C_instant_funding,zero_edge_EURUSD,min_days+trailing,2,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3655,0.37454,374.54,1.3010282061970266
+C_instant_funding,zero_edge_EURUSD,consistency+trailing,2,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.5329,0.53804,538.04,1.8689731832708072
+C_instant_funding,zero_edge_EURUSD,cap+trailing,2,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3639,0.37256,1334.0745356113523,4.634134137874644
+C_instant_funding,zero_edge_EURUSD,consistency+min_days,2,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6316,0.62794,627.94,2.181256078921773
+C_instant_funding,zero_edge_EURUSD,cap+min_days,2,own exit (1.5R),0.0025,0.25,0.5,0,0.3518,0.35962,690.6407645021427,2.399057817500843
+C_instant_funding,zero_edge_EURUSD,cap+consistency,2,own exit (1.5R),0.005,1000000000.0,1000000000.0,1,0.4957,0.50768,1147.278361974264,3.985265951001334
+C_instant_funding,zero_edge_EURUSD,daily+min_days+trailing,3,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3655,0.37454,374.54,1.3010282061970266
+C_instant_funding,zero_edge_EURUSD,consistency+daily+trailing,3,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.5329,0.53804,538.04,1.8689731832708072
+C_instant_funding,zero_edge_EURUSD,cap+daily+trailing,3,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3639,0.37256,1334.0745356113523,4.634134137874644
+C_instant_funding,zero_edge_EURUSD,consistency+daily+min_days,3,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6316,0.62794,627.94,2.181256078921773
+C_instant_funding,zero_edge_EURUSD,cap+daily+min_days,3,own exit (1.5R),0.0025,0.25,0.5,0,0.3518,0.35962,690.6407645021427,2.399057817500843
+C_instant_funding,zero_edge_EURUSD,cap+consistency+daily,3,own exit (1.5R),0.005,1000000000.0,1000000000.0,1,0.4957,0.50768,1147.278361974264,3.985265951001334
+C_instant_funding,zero_edge_EURUSD,consistency+min_days+trailing,3,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6645,0.66192,661.92,2.299291371404752
+C_instant_funding,zero_edge_EURUSD,cap+min_days+trailing,3,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3655,0.37454,1333.1961544319465,4.631082931888101
+C_instant_funding,zero_edge_EURUSD,cap+consistency+trailing,3,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.5329,0.53804,1692.7449623682116,5.880036690177198
+C_instant_funding,zero_edge_EURUSD,cap+consistency+min_days,3,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6316,0.62794,1453.9527852453155,5.050551567477128
+C_instant_funding,zero_edge_EURUSD,consistency+daily+min_days+trailing,4,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6645,0.66192,661.92,2.299291371404752
+C_instant_funding,zero_edge_EURUSD,cap+daily+min_days+trailing,4,own exit (1.5R),0.005,1000000000.0,0.5,0,0.3655,0.37454,1333.1961544319465,4.631082931888101
+C_instant_funding,zero_edge_EURUSD,cap+consistency+daily+trailing,4,own exit (1.5R),0.01,1000000000.0,1000000000.0,1,0.5329,0.53804,1692.7449623682116,5.880036690177198
+C_instant_funding,zero_edge_EURUSD,cap+consistency+daily+min_days,4,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6316,0.62794,1453.9527852453155,5.050551567477128
+C_instant_funding,zero_edge_EURUSD,cap+consistency+min_days+trailing,4,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6645,0.66192,1538.5422477874424,5.344387410683071
+C_instant_funding,zero_edge_EURUSD,cap+consistency+daily+min_days+trailing,5,own exit (1.5R),0.015,1000000000.0,1000000000.0,0,0.6645,0.66192,1538.5422477874424,5.344387410683071
+C_instant_funding,edge_+0.10R_EURUSD,none,0,own exit (1.5R),0.005,0.1,0.5,0,0.9452,0.94864,948.64,3.295261914686675
+C_instant_funding,edge_+0.10R_EURUSD,daily,1,own exit (1.5R),0.005,0.1,0.5,0,0.9236,0.9263,926.3,3.2176601361678476
+C_instant_funding,edge_+0.10R_EURUSD,trailing,1,own exit (1.5R),0.005,0.1,0.5,0,0.958,0.96016,960.16,3.335278588300681
+C_instant_funding,edge_+0.10R_EURUSD,min_days,1,own exit (1.5R),0.0025,1000000000.0,0.5,0,0.9663,0.96682,966.82,3.358413227733778
+C_instant_funding,edge_+0.10R_EURUSD,consistency,1,own exit (1.5R),0.005,0.1,1000000000.0,1,0.9695,0.9711,971.1,3.3732805335556484
+C_instant_funding,edge_+0.10R_EURUSD,cap,1,own exit (1.5R),0.005,0.1,0.5,0,0.9452,0.94864,2786.3433886690445,9.67883628132918
+C_instant_funding,edge_+0.10R_EURUSD,daily+trailing,2,own exit (1.5R),0.005,0.25,0.5,0,0.9523,0.95318,953.18,3.311032374600528
+C_instant_funding,edge_+0.10R_EURUSD,daily+min_days,2,own exit (1.5R),0.0025,1000000000.0,0.5,0,0.9663,0.96682,966.82,3.358413227733778
+C_instant_funding,edge_+0.10R_EURUSD,consistency+daily,2,own exit (1.5R),0.005,0.1,1000000000.0,1,0.9613,0.96344,963.44,3.3466722245380023
+C_instant_funding,edge_+0.10R_EURUSD,cap+daily,2,own exit (1.5R),0.005,0.1,0.5,0,0.9236,0.9263,3334.620571932235,11.58337005673279
+C_instant_funding,edge_+0.10R_EURUSD,min_days+trailing,2,own exit (1.5R),0.0025,0.25,0.5,0,0.9664,0.96698,966.98,3.358969014867306
+C_instant_funding,edge_+0.10R_EURUSD,consistency+trailing,2,own exit (1.5R),0.005,0.1,1000000000.0,1,0.9769,0.97838,978.38,3.3985688481311658
+C_instant_funding,edge_+0.10R_EURUSD,cap+trailing,2,own exit (1.5R),0.005,0.1,0.5,0,0.958,0.96016,2819.253249669342,9.793154264517653
+C_instant_funding,edge_+0.10R_EURUSD,consistency+min_days,2,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.9741,0.97446,974.46,3.384952063359733
+C_instant_funding,edge_+0.10R_EURUSD,cap+min_days,2,own exit (1.5R),0.0025,1000000000.0,0.5,0,0.9663,0.96682,1861.9041924541282,6.467639962672392
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency,2,own exit (1.5R),0.005,0.1,1000000000.0,1,0.9695,0.9711,2139.495273592607,7.431899658165233
+C_instant_funding,edge_+0.10R_EURUSD,daily+min_days+trailing,3,own exit (1.5R),0.0025,0.25,0.5,0,0.9664,0.96698,966.98,3.358969014867306
+C_instant_funding,edge_+0.10R_EURUSD,consistency+daily+trailing,3,own exit (1.5R),0.005,0.25,1000000000.0,1,0.9722,0.97094,970.94,3.3727247464221204
+C_instant_funding,edge_+0.10R_EURUSD,cap+daily+trailing,3,own exit (1.5R),0.005,0.25,0.5,0,0.9523,0.95318,3433.88473077889,11.928180946154265
+C_instant_funding,edge_+0.10R_EURUSD,consistency+daily+min_days,3,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.9741,0.97446,974.46,3.384952063359733
+C_instant_funding,edge_+0.10R_EURUSD,cap+daily+min_days,3,own exit (1.5R),0.0025,1000000000.0,0.5,0,0.9663,0.96682,1861.9041924541282,6.467639962672392
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+daily,3,own exit (1.5R),0.005,0.1,1000000000.0,1,0.9613,0.96344,2319.209879491267,8.056168818574639
+C_instant_funding,edge_+0.10R_EURUSD,consistency+min_days+trailing,3,own exit (1.5R),0.005,0.1,1000000000.0,0,0.9795,0.9796,979.6,3.4028067250243157
+C_instant_funding,edge_+0.10R_EURUSD,cap+min_days+trailing,3,own exit (1.5R),0.0025,0.25,0.5,0,0.9664,0.96698,1862.2061757150925,6.468688952741047
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+trailing,3,own exit (1.5R),0.005,0.1,1000000000.0,1,0.9769,0.97838,2153.85740033484,7.4817889409991665
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+min_days,3,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.9741,0.97446,1870.875306272044,6.498802647881215
+C_instant_funding,edge_+0.10R_EURUSD,consistency+daily+min_days+trailing,4,own exit (1.5R),0.005,0.1,1000000000.0,0,0.9746,0.97598,975.98,3.390232041128248
+C_instant_funding,edge_+0.10R_EURUSD,cap+daily+min_days+trailing,4,own exit (1.5R),0.0025,0.25,0.5,0,0.9664,0.96698,1862.2061757150925,6.468688952741047
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+daily+trailing,4,own exit (1.5R),0.005,0.25,1000000000.0,1,0.9722,0.97094,2335.657342774237,8.11330187152368
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+daily+min_days,4,own exit (1.5R),0.0025,0.5,1000000000.0,0,0.9741,0.97446,1870.875306272044,6.498802647881215
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+min_days+trailing,4,own exit (1.5R),0.005,0.1,1000000000.0,0,0.9795,0.9796,1957.809866527623,6.800784585687172
+C_instant_funding,edge_+0.10R_EURUSD,cap+consistency+daily+min_days+trailing,5,own exit (1.5R),0.005,0.1,1000000000.0,0,0.9746,0.97598,1988.903687915412,6.908794247309338
+C_instant_funding,breakout_XAUUSD,none,0,3R,0.0025,1000000000.0,0.5,0,0.3731,0.37408,374.08,1.299430318188134
+C_instant_funding,breakout_XAUUSD,daily,1,3R,0.0025,1000000000.0,0.5,0,0.3731,0.37408,374.08,1.299430318188134
+C_instant_funding,breakout_XAUUSD,trailing,1,3R,0.0025,0.25,0.5,0,0.3782,0.37966,379.66,1.318813394469918
+C_instant_funding,breakout_XAUUSD,min_days,1,1R,0.005,0.5,0.5,0,0.4171,0.4222,422.2,1.4665832985966374
+C_instant_funding,breakout_XAUUSD,consistency,1,3R,0.0025,1000000000.0,1000000000.0,0,0.5673,0.571,571.0,1.9834653327775462
+C_instant_funding,breakout_XAUUSD,cap,1,3R,0.0025,1000000000.0,0.5,0,0.3731,0.37408,1336.6658699328698,4.643135577090697
+C_instant_funding,breakout_XAUUSD,daily+trailing,2,3R,0.0025,0.25,0.5,0,0.3782,0.37966,379.66,1.318813394469918
+C_instant_funding,breakout_XAUUSD,daily+min_days,2,1R,0.005,0.5,0.5,0,0.4171,0.4222,422.2,1.4665832985966374
+C_instant_funding,breakout_XAUUSD,consistency+daily,2,3R,0.0025,1000000000.0,1000000000.0,0,0.5673,0.571,571.0,1.9834653327775462
+C_instant_funding,breakout_XAUUSD,cap+daily,2,3R,0.0025,1000000000.0,0.5,0,0.3731,0.37408,1336.6658699328698,4.643135577090697
+C_instant_funding,breakout_XAUUSD,min_days+trailing,2,1R,0.005,1000000000.0,0.5,0,0.4283,0.43402,434.02,1.507642073086008
+C_instant_funding,breakout_XAUUSD,consistency+trailing,2,3R,0.005,1000000000.0,1000000000.0,0,0.6232,0.62022,620.22,2.1544393497290537
+C_instant_funding,breakout_XAUUSD,cap+trailing,2,3R,0.0025,0.25,0.5,0,0.3782,0.37966,1356.6768256699247,4.712647025392263
+C_instant_funding,breakout_XAUUSD,consistency+min_days,2,3R,0.005,0.5,1000000000.0,0,0.6396,0.63764,637.64,2.2149506738918996
+C_instant_funding,breakout_XAUUSD,cap+min_days,2,1R,0.005,0.5,0.5,0,0.4171,0.4222,1008.1409812343363,3.501948663451217
+C_instant_funding,breakout_XAUUSD,cap+consistency,2,3R,0.0025,1000000000.0,1000000000.0,0,0.5673,0.571,1233.0130378446643,4.28307988691352
+C_instant_funding,breakout_XAUUSD,daily+min_days+trailing,3,1R,0.005,1000000000.0,0.5,0,0.4283,0.43402,434.02,1.507642073086008
+C_instant_funding,breakout_XAUUSD,consistency+daily+trailing,3,3R,0.005,1000000000.0,1000000000.0,0,0.6232,0.62022,620.22,2.1544393497290537
+C_instant_funding,breakout_XAUUSD,cap+daily+trailing,3,3R,0.0025,0.25,0.5,0,0.3782,0.37966,1356.6768256699247,4.712647025392263
+C_instant_funding,breakout_XAUUSD,consistency+daily+min_days,3,3R,0.005,0.5,1000000000.0,0,0.6396,0.63764,637.64,2.2149506738918996
+C_instant_funding,breakout_XAUUSD,cap+daily+min_days,3,1R,0.005,0.5,0.5,0,0.4171,0.4222,1008.1409812343363,3.501948663451217
+C_instant_funding,breakout_XAUUSD,cap+consistency+daily,3,3R,0.0025,1000000000.0,1000000000.0,0,0.5673,0.571,1233.0130378446643,4.28307988691352
+C_instant_funding,breakout_XAUUSD,consistency+min_days+trailing,3,3R,0.005,1000000000.0,1000000000.0,0,0.6793,0.67302,673.02,2.337849103793247
+C_instant_funding,breakout_XAUUSD,cap+min_days+trailing,3,1R,0.005,1000000000.0,0.5,0,0.4283,0.43402,1036.5738194574733,3.6007149487893333
+C_instant_funding,breakout_XAUUSD,cap+consistency+trailing,3,3R,0.005,1000000000.0,1000000000.0,0,0.6232,0.62022,1726.4557278104312,5.997136750765705
+C_instant_funding,breakout_XAUUSD,cap+consistency+min_days,3,3R,0.005,0.5,1000000000.0,0,0.6396,0.63764,1441.0281837486893,5.00565577236588
+C_instant_funding,breakout_XAUUSD,consistency+daily+min_days+trailing,4,3R,0.005,1000000000.0,1000000000.0,0,0.6793,0.67302,673.02,2.337849103793247
+C_instant_funding,breakout_XAUUSD,cap+daily+min_days+trailing,4,1R,0.005,1000000000.0,0.5,0,0.4283,0.43402,1036.5738194574733,3.6007149487893333
+C_instant_funding,breakout_XAUUSD,cap+consistency+daily+trailing,4,3R,0.005,1000000000.0,1000000000.0,0,0.6232,0.62022,1726.4557278104312,5.997136750765705
+C_instant_funding,breakout_XAUUSD,cap+consistency+daily+min_days,4,3R,0.005,0.5,1000000000.0,0,0.6396,0.63764,1441.0281837486893,5.00565577236588
+C_instant_funding,breakout_XAUUSD,cap+consistency+min_days+trailing,4,3R,0.005,1000000000.0,1000000000.0,0,0.6793,0.67302,1520.55380584064,5.281901507019036
+C_instant_funding,breakout_XAUUSD,cap+consistency+daily+min_days+trailing,5,3R,0.005,1000000000.0,1000000000.0,0,0.6793,0.67302,1520.55380584064,5.281901507019036
+C_instant_funding,trend_XAUUSD,none,0,1R,0.01,1000000000.0,0.5,0,0.5077,0.5068,506.8,1.760455745449493
+C_instant_funding,trend_XAUUSD,daily,1,1R,0.01,0.1,0.5,0,0.562,0.5609,560.9,1.9483812699736
+C_instant_funding,trend_XAUUSD,trailing,1,1R,0.01,1000000000.0,0.5,0,0.5996,0.60128,601.28,2.0886480477976934
+C_instant_funding,trend_XAUUSD,min_days,1,1R,0.005,1000000000.0,0.5,0,0.7025,0.70526,705.26,2.4498402111991107
+C_instant_funding,trend_XAUUSD,consistency,1,own exit (none),0.005,1000000000.0,1000000000.0,0,0.7236,0.72674,726.74,2.524454633875226
+C_instant_funding,trend_XAUUSD,cap,1,1R,0.01,1000000000.0,0.5,0,0.5077,0.5068,2425.5749880546705,8.425646061048598
+C_instant_funding,trend_XAUUSD,daily+trailing,2,1R,0.01,1000000000.0,0.5,0,0.5996,0.60128,601.28,2.0886480477976934
+C_instant_funding,trend_XAUUSD,daily+min_days,2,1R,0.005,1000000000.0,0.5,0,0.7025,0.70526,705.26,2.4498402111991107
+C_instant_funding,trend_XAUUSD,consistency+daily,2,own exit (none),0.005,1000000000.0,1000000000.0,0,0.7236,0.72674,726.74,2.524454633875226
+C_instant_funding,trend_XAUUSD,cap+daily,2,1R,0.01,0.1,0.5,0,0.562,0.5609,1870.309097920424,6.496835827151674
+C_instant_funding,trend_XAUUSD,min_days+trailing,2,1R,0.005,1000000000.0,0.5,0,0.7181,0.72154,721.54,2.5063915520355704
+C_instant_funding,trend_XAUUSD,consistency+trailing,2,own exit (none),0.005,0.25,1000000000.0,0,0.7618,0.76646,766.46,2.662428789773517
+C_instant_funding,trend_XAUUSD,cap+trailing,2,1R,0.01,1000000000.0,0.5,0,0.5996,0.60128,2879.833872472495,10.003591331362008
+C_instant_funding,trend_XAUUSD,consistency+min_days,2,3R,0.005,1000000000.0,1000000000.0,0,0.7663,0.76756,767.56,2.6662498263165206
+C_instant_funding,trend_XAUUSD,cap+min_days,2,1R,0.005,1000000000.0,0.5,0,0.7025,0.70526,1685.1237887926886,5.853563251329334
+C_instant_funding,trend_XAUUSD,cap+consistency,2,own exit (none),0.005,1000000000.0,1000000000.0,0,0.7236,0.72674,2043.033555895638,7.096823523327908
+C_instant_funding,trend_XAUUSD,daily+min_days+trailing,3,1R,0.005,1000000000.0,0.5,0,0.7181,0.72154,721.54,2.5063915520355704
+C_instant_funding,trend_XAUUSD,consistency+daily+trailing,3,own exit (none),0.005,0.25,1000000000.0,0,0.7618,0.76646,766.46,2.662428789773517
+C_instant_funding,trend_XAUUSD,cap+daily+trailing,3,1R,0.01,1000000000.0,0.5,0,0.5996,0.60128,2879.833872472495,10.003591331362008
+C_instant_funding,trend_XAUUSD,consistency+daily+min_days,3,3R,0.005,1000000000.0,1000000000.0,0,0.7663,0.76756,767.56,2.6662498263165206
+C_instant_funding,trend_XAUUSD,cap+daily+min_days,3,1R,0.005,1000000000.0,0.5,0,0.7025,0.70526,1685.1237887926886,5.853563251329334
+C_instant_funding,trend_XAUUSD,cap+consistency+daily,3,own exit (none),0.005,1000000000.0,1000000000.0,0,0.7236,0.72674,2043.033555895638,7.096823523327908
+C_instant_funding,trend_XAUUSD,consistency+min_days+trailing,3,own exit (none),0.005,0.25,1000000000.0,0,0.7905,0.7954,795.4,2.762956787550368
+C_instant_funding,trend_XAUUSD,cap+min_days+trailing,3,1R,0.005,1000000000.0,0.5,0,0.7181,0.72154,1724.3184418163514,5.989712525414587
+C_instant_funding,trend_XAUUSD,cap+consistency+trailing,3,own exit (none),0.005,0.25,1000000000.0,0,0.7618,0.76646,2131.142164889622,7.402883718527241
+C_instant_funding,trend_XAUUSD,cap+consistency+min_days,3,3R,0.005,1000000000.0,1000000000.0,0,0.7663,0.76756,1635.290933473242,5.680460377494935
+C_instant_funding,trend_XAUUSD,consistency+daily+min_days+trailing,4,own exit (none),0.005,0.25,1000000000.0,0,0.7905,0.7954,795.4,2.762956787550368
+C_instant_funding,trend_XAUUSD,cap+daily+min_days+trailing,4,1R,0.005,1000000000.0,0.5,0,0.7181,0.72154,1724.3184418163514,5.989712525414587
+C_instant_funding,trend_XAUUSD,cap+consistency+daily+trailing,4,own exit (none),0.005,0.25,1000000000.0,0,0.7618,0.76646,2131.142164889622,7.402883718527241
+C_instant_funding,trend_XAUUSD,cap+consistency+daily+min_days,4,3R,0.005,1000000000.0,1000000000.0,0,0.7663,0.76756,1635.290933473242,5.680460377494935
+C_instant_funding,trend_XAUUSD,cap+consistency+min_days+trailing,4,own exit (none),0.005,0.25,1000000000.0,0,0.7905,0.7954,1748.0892131024468,6.07228433063237
+C_instant_funding,trend_XAUUSD,cap+consistency+daily+min_days+trailing,5,own exit (none),0.005,0.25,1000000000.0,0,0.7905,0.7954,1748.0892131024468,6.07228433063237
